@@ -1,0 +1,17 @@
+<?php
+namespace {{ namespace }};
+
+interface {{interface_name}}
+{
+
+    public function index();
+
+    public function store(array $data);
+
+    public function show($uuid);
+
+    public function update(array $data, $uuid);
+
+    public function destroy($uuid);
+
+}
